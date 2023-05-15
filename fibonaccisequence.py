@@ -1,10 +1,11 @@
 listtype = ', '
 
-print("This displays the Fibonacci sequence up to the specified number of terms.\nYou can switch list modes: `--switch comma|newline` | Current mode: `comma`")
+print("This displays the Fibonacci sequence up to the specified number of terms.")
 
 
 while True:
-    terms = input("\nInput the number of terms: ")
+    print('\nYou can switch list modes: `--switch comma|newline` | Current mode: `comma`')
+    terms = input("Input the number of terms: ")
     n1, n2 = 0, 1
     count = 0
 
